@@ -1,8 +1,8 @@
 ## NYC Taxi Tip Prediction Based on Neighborhood Median Income
 
 ### Ashley Kim & John Park
+![big-city-1265055_640](https://github.com/user-attachments/assets/28927147-e815-4c6b-a521-6135b4eb0038)
 
-![](/Users/yelim/Downloads/big-city-1265055_1280.jpg){width="1000"}
 
 ## Description
 
