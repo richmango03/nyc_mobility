@@ -10,7 +10,7 @@ Tipping behavior in urban transportation is shaped by a complex mix of social, e
 
 Our goal is to understand whether and how tipping is influenced by the socioeconomic context of pickup and dropoff neighborhoods. We examine trip-level attributes and geographic income disparities across NYC to predict tip amounts and uncover patterns of urban mobility compensation.
 
--   **Dependent variable**: Tip amount or tip percentage.\
+-   **Dependent variable**: Tip amount or tip percentage.
 -   **Independent variables**: Trip distance, fare, tip percentage, hour, day of week, season, pickup and dropoff locations, neighborhood median income, taxi type.
 
 ## Data Retrieval
