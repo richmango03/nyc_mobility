@@ -17,24 +17,24 @@ Our goal is to understand whether and how tipping is influenced by the socioecon
 
 ### Primary Dataset: NYC Taxi & Limousine Commission Trip Record Data
 
--   Covers yellow taxi, green taxi, for hire vehicles trips across New York City during 2023.\
--   Publicly available through the NYC Open Data platform.\
+-   Covers yellow taxi, green taxi, for hire vehicles trips across New York City during 2023.
+-   Publicly available through the NYC Open Data platform.
 -   Each row represents a single trip with details including pickup/dropoff times and locations, fare amount, tip amount, and payment type.
 
 ### Secondary Dataset: American Community Survey (ACS)
 
--   Table: B19001 -- Household Income in the Past 12 Months (2023)\
--   Retrieved from the U.S. Census Bureau's ACS 1-Year Estimates\
--   Used to extract median income at the neighborhood (PUMA) level.\
+-   Table: B19001 -- Household Income in the Past 12 Months (2023)
+-   Retrieved from the U.S. Census Bureau's ACS 1-Year Estimates
+-   Used to extract median income at the neighborhood (PUMA) level.
 -   Income data was spatially joined to pickup/dropoff zones based on TLC taxi zones.
 
 ## Data Overview
 
 After cleaning and preprocessing, we used trip data from four months in 2023 (as specified in our code). Each processed dataset contains:
 
--   Approximately 21 columns, including engineered features such as tip percentage and time-of-day variables.\
--   The datasets vary in size depending on the month but each contains hundreds of thousands of rows.\
--   Trips with zero fare, zero tip, or missing location data were excluded.\
+-   Approximately 21 columns, including engineered features such as tip percentage and time-of-day variables.
+-   The datasets vary in size depending on the month but each contains hundreds of thousands of rows.
+-   Trips with zero fare, zero tip, or missing location data were excluded.
 -   Geographic income data was merged using spatial joins to match taxi zones to median income estimates.
 
 ## Libraries
